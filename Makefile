@@ -10,25 +10,25 @@ PKG_NAME:=npc
 PKG_VERSION:=0.26.10
 PKG_RELEASE:=1
 
-ifeq ($(ARCH),mipsel)
-	NPC_ARCH:=mipsle
-endif
-ifeq ($(ARCH),mips)
-	NPC_ARCH:=mips
-endif
-ifeq ($(ARCH),i386)
-	NPC_ARCH:=386
-endif
-ifeq ($(ARCH),x86_64)
-	NPC_ARCH:=amd64
-endif
-ifeq ($(ARCH),arm)
-	NPC_ARCH:=arm
-endif
-ifeq ($(ARCH),aarch64)
-	NPC_ARCH:=arm64
-endif
-
+# ifeq ($(ARCH),mipsel)
+#	NPC_ARCH:=mipsle
+#endif
+#ifeq ($(ARCH),mips)
+#	NPC_ARCH:=mips
+#endif
+#ifeq ($(ARCH),i386)
+#	NPC_ARCH:=386
+#endif
+#ifeq ($(ARCH),x86_64)
+#	NPC_ARCH:=amd64
+#endif
+#ifeq ($(ARCH),arm)
+#	NPC_ARCH:=arm
+#endif
+#ifeq ($(ARCH),aarch64)
+#	NPC_ARCH:=arm64
+#endif
+NPC_ARCH:=mipsle
 PKG_LICENSE:=Apache-2.0
 
 PKG_SOURCE_URL:=https://github.com/cnlh/nps/releases/download/v$(PKG_VERSION)
