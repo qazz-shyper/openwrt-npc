@@ -6,7 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=npc
+PKG_NAME:=openwrt-npc
 PKG_VERSION:=0.26.10
 PKG_RELEASE:=1
 
